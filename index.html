@@ -44,20 +44,20 @@
             border-radius: 8px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
             transition: transform 0.2s, box-shadow 0.2s;
+            text-align: center;
+            cursor: pointer;
         }
         .card:hover {
             transform: translateY(-5px);
             box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
         }
-        .card h3 {
-            margin: 0 0 0.5rem;
-            font-size: 1.5rem;
+        .card a {
+            text-decoration: none;
             color: #4caf50;
-        }
-        .card p {
-            margin: 0.5rem 0;
-            color: #555;
-            font-size: 1rem;
+            font-size: 1.2rem;
+            font-weight: bold;
+            display: block;
+            margin-top: 1rem;
         }
         footer {
             text-align: center;
@@ -99,14 +99,17 @@
         <div class="card" id="happy-hours">
             <h3>Upcoming Happy Hours</h3>
             <p>Check out the latest happy hour events happening soon!</p>
+            <a href="happy-hours.html">Learn More</a>
         </div>
         <div class="card" id="dinners">
             <h3>Upcoming Dinners</h3>
             <p>Plan your next dinner outing with the VIP Crew!</p>
+            <a href="dinners.html">Learn More</a>
         </div>
         <div class="card" id="vip-members">
             <h3>VIP Members</h3>
             <p>Meet the crew and connect with fellow VIPs.</p>
+            <a href="vip-members.html">Learn More</a>
         </div>
     </div>
     <footer>
